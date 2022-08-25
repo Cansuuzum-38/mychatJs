@@ -23,7 +23,7 @@ const App = () => {
       });
 
       connection.on("ReceiveMessage", (user, message) => {
-        console.log(message + "aaaa");
+        console.log(message + "aaaaa");
         setMessages((messages) => [...messages, { user, message }]);
       });
 
