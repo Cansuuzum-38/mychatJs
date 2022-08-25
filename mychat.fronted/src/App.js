@@ -75,7 +75,6 @@ const App = () => {
           />
         )}
       </div>
-      <button onClick={clickF}>İletişime Geç </button>
     </div>
   );
 };
